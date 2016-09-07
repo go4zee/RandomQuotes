@@ -1,0 +1,74 @@
+.quote-box{
+  margin: 10% auto auto auto;
+  width: 550px;
+  position: relative;
+  padding: 40px 50px;
+  background-color: white;
+
+}
+.footer{
+  font-size: 0.8em;
+  margin: 20px 0px 0px 0px;
+  align: center;
+  color: white;
+}
+.buttons{
+  margin: 40px 0px 8px 0px;
+}
+.quote-box .quote-text{
+  padding: 20px ;
+  height: auto;
+  text-align: center;
+  border-radius: 3px;
+  font-size:1.75em;
+  font-weight: 500;
+  clear: both;
+}
+.quote-author{
+  float: right;
+  clear: both;
+}
+p{
+  
+  margin: 0px;
+  clear: both;
+}
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+#quote-left{
+  float: left;
+  margin-right: 6px;
+}
+
+.quote-box .buttons .button{
+  text-align: center;
+  height: 30px;
+  border-radius: 3px;
+  opacity: 1;
+  background-color: yellow;
+  margin-left: 10px;
+  line-height: 30px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  color:white;
+}
+
+.quote-box .buttons .button#new-quote{
+  float: right;
+  width: 100px;
+  padding: 5px;
+}
+
+p{
+  display: inline;
+}
+
+.quote-box .buttons .button#tumblr-quote{
+    padding: 10px 15px 10px 15px;
+
+}
